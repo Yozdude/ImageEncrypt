@@ -1,0 +1,94 @@
+.container {
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.imgContainer {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.btn {
+	font-size: 18px;
+}
+
+.panel {
+	/*margin-top: 20px;*/
+	/*width: 100%;*/
+	padding: 15px 30px;
+	box-shadow: 0px 0px 10px #888;
+	display: inline-block;
+	margin: 5px 15px 20px;
+	/*border: 1px solid #888;
+	border-radius: 10px;
+	float:left;
+	text-align: center;*/
+	width: 410px;
+	height: 325px;
+}
+.panel p {
+	margin: 2px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+#imgSelectPanel {
+	font-size: 16px;
+}
+
+#imgDrop {
+	width: 100%;
+	border: 2px dashed #aaa;
+	border-radius: 10px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 18px;
+	color: #aaa;
+	text-align: center;
+	display: inline-block;
+}
+
+input[type="file"] {
+	display: inline-block;
+}
+
+input[type="text"] {
+	display: inline-block;
+}
+
+#headerImg {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#img {
+	padding: 10px;
+	transition: All 0.25s ease;
+	-webkit-transition: All 0.25s ease;
+	-moz-transition: All 0.25s ease;
+	-o-transition: All 0.25s ease;
+}
+
+.decrypted {
+	background: #428bca;
+}
+
+.encrypted {
+	background: #d9534f;
+}
+
+textarea {
+	width: 100%;
+	min-height: 100px;
+	transition: border 0.25s ease;
+	-webkit-transition: border 0.25s ease;
+	-moz-transition: border 0.25s ease;
+	-o-transition: border 0.25s ease;
+}
+
+.errorText {
+	color: #f00;
+	font-weight: bold;
+}
